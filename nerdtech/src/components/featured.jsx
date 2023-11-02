@@ -4,7 +4,8 @@ import vector from '../assets/vector.svg'
 import Count from './count';
 
 const Featured = () => {
-  return (
+  return (<>
+  
     <div className='flex justify-between items-start w-screen py-10 px-24 border-solid  ' style={{ fontFamily:'nothing'}}>
         <div className=" flex flex-col items-start pl-12 pt-14 h-full w-[50%] gap-5 text-white border-solid  ">
             <div className="text-4xl " style={{ fontSize: 55, letterSpacing:2, lineHeight:1 }}>We create ideas into <span className='text-yellow-400'>real Products</span> </div>
@@ -21,6 +22,7 @@ const Featured = () => {
         
 
     </div>
+  </>
   )
 }
 
