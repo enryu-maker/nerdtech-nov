@@ -26,6 +26,7 @@ useEffect(()=>{
         <Link>HOME </Link>
         <Link>SERVICES</Link>
         <Link>CLIENTS </Link>
+        <Link>ABOUT US</Link>
         <Link>CONTACT US</Link>
       </div>
     </div>
