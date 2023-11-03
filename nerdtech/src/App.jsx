@@ -7,6 +7,9 @@ import { Route , Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Services from './components/services'
 import dtbgt from './assets/DesktopDesign-4.png'
+import Clients from './components/clients'
+import { Aboutus, Contactus, Team } from './components/aboutus'
+import Footer from './components/footer'
 
 
 
@@ -23,6 +26,11 @@ function App() {
           <Header/>
           <Home/>
           <Services/>
+          <Clients/>
+          <Aboutus/>
+          <Team/>
+          <Contactus/>
+          <Footer/>
           {/* <Routes>
               <Route path="/" element={<Home/>} />
           </Routes> */}
