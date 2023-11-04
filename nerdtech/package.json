@@ -1,6 +1,6 @@
 {
   "name": "nerdtech",
-  "homepage": "https://rushi-bhaskar.github.io/nerdtech-nov",
+  "homepage": "https://rushi-bhaskar.github.io/nerdtech/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,11 +13,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.0",
     "gh-pages": "^6.0.0",
     "google-map-react": "^2.2.1",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.4.5",
     "react-router-dom": "^6.18.0"
   },
   "devDependencies": {

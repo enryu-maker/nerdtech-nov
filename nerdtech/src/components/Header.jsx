@@ -23,11 +23,45 @@ useEffect(()=>{
         <img src={logo} alt="" className="h-[100px] w-[100px]" />
         NerdTech</div>
       <div className="flex gap-10"> 
-        <Link>HOME </Link>
-        <Link>SERVICES</Link>
-        <Link>CLIENTS </Link>
-        <Link>ABOUT US</Link>
-        <Link>CONTACT US</Link>
+        <Link
+        onClick={() => {
+          window.scrollTo({
+            top: document.getElementById("home").offsetTop,
+            behavior: "smooth",
+          });
+        }}
+        >HOME </Link>
+        <Link
+        onClick={() => {
+          window.scrollTo({
+            top: document.getElementById("service").offsetTop,
+            behavior: "smooth",
+          });
+        }}
+        >SERVICES</Link>
+        <Link
+        onClick={() => {
+          window.scrollTo({
+            top: document.getElementById("clients").offsetTop,
+            behavior: "smooth",
+          });
+        }}>CLIENTS </Link>
+        <Link
+        onClick={() => {
+          window.scrollTo({
+            top: document.getElementById("about").offsetTop,
+            behavior: "smooth",
+          });
+        }}
+        >ABOUT US</Link>
+        <Link
+        onClick={() => {
+          window.scrollTo({
+            top: document.getElementById("contact").offsetTop,
+            behavior: "smooth",
+          });
+        }}
+        >CONTACT US</Link>
       </div>
     </div>
   );

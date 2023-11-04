@@ -15,7 +15,7 @@ import { ClientData } from '../assets/data'
 const Clients = () => {
   return (
     <>
-    <div className='flex flex-col justify-center items-center w-[90%] py-24 '>
+    <div id='clients' className='flex flex-col justify-center items-center w-[90%] py-24 '>
         <div className="text-4xl  px-24 py-10" style={{ fontFamily:'nothing', letterSpacing:2}}>OUR CLIENTS</div>
         <div className="flex flex-wrap justify-center gap-10"> 
         {
