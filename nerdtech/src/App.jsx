@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/header'
 import { Route , Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Services from './components/services'
@@ -10,6 +9,7 @@ import dtbgt from './assets/DesktopDesign-4.png'
 import Clients from './components/clients'
 import { Aboutus, Contactus, Team } from './components/aboutus'
 import Footer from './components/footer'
+import Header from './components/Header'
 
 
 

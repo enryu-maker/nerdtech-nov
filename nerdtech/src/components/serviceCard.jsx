@@ -8,7 +8,7 @@ const ServiceCard = ({gif, title, desc, lottie }) => {
     <>
         <div className="flex h-[200px] max-w-md rounded-md justify-between items-center overflow-hidden shadow-lg px-7 py-3 gap-7 cursor-pointer border-2 border-gray-200 hover:bg-gray-100">
                 {
-                    lottie ? <Lottie animationData={wp} loop={true} className='w-fit h-[80px] mix-blend-multiply'/> : <img src={gif} alt="" className='w-[100px] h-[100px] mix-blend-multiply'/>
+                    lottie ? <Lottie animationData={wp} loop={true} className='w-fit h-[200px] mix-blend-multiply'/> : <img src={gif} alt="" className='w-[100px] h-[100px] mix-blend-multiply'/>
                     
                 }
                 
