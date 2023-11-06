@@ -6,9 +6,9 @@ import { ServicesData } from '../assets/data';
 const Services = () => {
   return (
     <>
-      <div id='service' className='flex flex-col justify-center items-center w-[90%] '>
-        <div className="text-4xl  px-24 py-10" style={{ fontFamily: 'nothing', letterSpacing: 2 }}>OUR SERVICES</div>
-        <div className="flex flex-wrap justify-center gap-10">
+      <div id='service' className='flex flex-col justify-center items-center w-[100%] '>
+        <div className="text-4xl  px-24 py-10 pt-24" style={{ fontFamily: 'nothing', letterSpacing: 2 }}>OUR SERVICES</div>
+        <div className="flex flex-wrap justify-center gap-5">
           {
             ServicesData.map((item, id) => (
 

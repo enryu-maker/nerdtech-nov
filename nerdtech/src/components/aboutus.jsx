@@ -1,5 +1,6 @@
 import React from "react";
 import { InfinitySpin, MutatingDots } from "react-loader-spinner";
+import Slider from "./slider";
 
 export const Aboutus = () => {
 
@@ -46,7 +47,9 @@ export const Team = () => {
         >
           OUR TEAM
         </div>
-        <div className="flex flex-wrap justify-center gap-10"></div>
+        <div className="flex flex-wrap justify-center gap-10">
+          <Slider/>
+        </div>
       </div>
     </>
   );

@@ -20,7 +20,7 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center"
         style={{
-          width: "100vw",
+          
         }}>
           <img src={dtbgt} alt="" className='absolute inset-0 w-screen h-screen z-0' />
           <Header/>
