@@ -17,7 +17,7 @@ const Slider = () => {
             autoPlay
             infiniteLoop
             swipeable={true}
-            stopOnHover={false}
+            stopOnHover={true}
             showThumbs={false}
             // showIndicators={false}  
             showArrows={false}
@@ -28,11 +28,25 @@ const Slider = () => {
             >
                 <div className='h-full w-full'>
                     <img src={a} className='' />
-                     <p className="legend">Legend 1</p>
+                     <p className="legend"
+                     style={{
+                        fontFamily:'nothing',
+                        fontSize:20,
+                        color:'white',
+                     }}
+                     >VED : I'll complete this project with the finesse of a squirrel trying to organize its acorn collection during a hurricane.</p>
                 </div>
                 <div>
                     <img src={b} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend"
+                    style={{
+                        fontFamily:'nothing',
+                        fontSize:20,
+                        color:'white',
+                     }}
+                    >
+                    Client: "We have a few more changes we'd like to make to the project."
+                    </p>
                 </div>
                 {/* <div>
                     <img src={c} />
@@ -40,15 +54,37 @@ const Slider = () => {
                 </div> */}
                 <div>
                     <img src={d} />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend"
+                    style={{
+                        fontFamily:'nothing',
+                        fontSize:20,
+                        color:'white',
+                     }}
+                    >Client: "Thanks for all your hard work. The project turned out great!"</p>
                 </div>
                 <div>
                     <img src={e} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend"
+                    style={{
+                        fontFamily:'nothing',
+                        fontSize:20,
+                        color:'white',
+                     }}
+                    >
+                        Client : "I've identified a bug in the system that needs attention. We should look into it and work on a solution."
+                    </p>
                 </div>
                 <div>
                     <img src={f} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend"
+                    style={{
+                        fontFamily:'nothing',
+                        fontSize:20,
+                        color:'white',
+                     }}
+                    >
+                    Client: "We're thrilled with the final delivery. Great job!"
+                    </p>
                 </div>
                 {/* <div>
                     <img src={g} />
