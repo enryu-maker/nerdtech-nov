@@ -11,6 +11,7 @@ import { Aboutus, Contactus, Team } from './components/aboutus'
 import Footer from './components/footer'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
+import Blog from './components/blog'
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Services/>
           <Clients/>
           <Aboutus/>
+          <Blog/>
           <Team/>
           <Contactus/>
           <Footer/>
