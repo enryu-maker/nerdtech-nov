@@ -10,6 +10,7 @@ import Clients from './components/clients'
 import { Aboutus, Contactus, Team } from './components/aboutus'
 import Footer from './components/footer'
 import Header from './components/Header'
+import Navbar from './components/Navbar'
 
 
 
@@ -23,7 +24,8 @@ function App() {
           
         }}>
           <img src={dtbgt} alt="" className='absolute inset-0 w-screen h-screen z-0' />
-          <Header/>
+          {/* <Header/> */}
+          <Navbar/>
           <Home/>
           <Services/>
           <Clients/>

@@ -8,14 +8,14 @@ export const Aboutus = () => {
     <>
       <div id="about" className="flex flex-col justify-center items-center w-[90%] py-24 ">
         <div
-          className="text-4xl  px-24 py-10"
+          className="text-4xl  px-24 py-10 text-center"
           style={{ fontFamily: "nothing", letterSpacing: 2 }}
         >
           ABOUT US
         </div>
-        <div className="flex flex-wrap justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-10 max-md:px-4">
           <p
-            className="text-center"
+            className="text-center max-md:text-justify max-md:indent-14"
             style={{ fontFamily: "nothing", letterSpacing: 2 }}
           >
             NERDTECH Technologies is a premier digital organization specializing
@@ -42,7 +42,7 @@ export const Team = () => {
     <>
       <div id="team" className="flex flex-col justify-center items-center w-[90%] py-24 ">
         <div
-          className="text-4xl  px-24 py-10"
+          className="text-4xl  px-24 py-10 text-center"
           style={{ fontFamily: "nothing", letterSpacing: 2 }}
         >
           OUR TEAM
@@ -104,13 +104,13 @@ export const Contactus = () => {
     <>
       <div id="contact" className="flex flex-col justify-center items-center w-[90%] py-24 ">
         <div
-          className="text-4xl  px-24 py-10"
+          className="text-4xl  px-24 py-10 text-center"
           style={{ fontFamily: "nothing", letterSpacing: 2 }}
         >
           CONTACT US
         </div>
 
-        <div className="flex justify-around" style={{ fontFamily: "nothing", letterSpacing: 2 }}>
+        <div className="flex max-md:flex-col justify-around" style={{ fontFamily: "nothing", letterSpacing: 2 }}>
           <div className=" flex flex-col">
             <div>
               <h2 className="text-lg font-bold pt-3">Mobile NO : </h2>
@@ -132,7 +132,7 @@ export const Contactus = () => {
               </p>
             </div>
 
-            <iframe
+            <iframe className="max-md:w-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d270.7107379740597!2d73.76403527624599!3d20.010179882771663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb91ba094e0f%3A0x4db062f92da39292!2sKBT%20Circle!5e0!3m2!1sen!2sin!4v1699004716762!5m2!1sen!2sin"
               width="600"
               height="450"
@@ -142,12 +142,12 @@ export const Contactus = () => {
               referrerpolicy="no-referrer-when-downgrade"
             />
           </div>
-          <div className="flex w-[60%]">
+          <div className="flex w-[60%] max-md:w-full ">
 
             <div class="py-8 lg:py-16 px-4 mx-auto w-full ">
               {/* <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2> */}
               {/* <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p> */}
-              <form action="#" class="space-y-8">
+              <form action="#" className="space-y-8">
                 <p
                   style={{
                     color: Sucess ? "green" : "red",
