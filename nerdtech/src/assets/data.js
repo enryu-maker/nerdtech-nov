@@ -37,7 +37,7 @@ export const ServicesData = [
   },
   {
     title: "Wordpress Website",
-    desc:"Create dynamic and customizable WordPress websites that align perfectly with your brand's vision.",
+    desc:"Create dynamic WordPress websites that align perfectly with your brand's vision.",
     gif: {} , lottie:true
   },
   {
