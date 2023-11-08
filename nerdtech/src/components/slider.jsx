@@ -1,10 +1,10 @@
 import React from 'react'
-import a from '../assets/gp/DSC_2445.jpeg'
-import b from '../assets/gp/DSC_2446.jpeg'
+import a from '../assets/gp/DSC_2445-min.jpeg'
+import b from '../assets/gp/DSC_2446-min.jpeg'
 // import c from '../assets/gp/DSC_2450.jpeg'
-import d from '../assets/gp/DSC_2451.jpeg'
-import e from '../assets/gp/DSC_2453.jpeg'
-import f from '../assets/gp/DSC_2454.jpeg'
+import d from '../assets/gp/DSC_2451-min.jpeg'
+import e from '../assets/gp/DSC_2453-min.jpeg'
+import f from '../assets/gp/DSC_2454-min.jpeg'
 // import g from '../assets/gp/DSC_2455.jpeg'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
